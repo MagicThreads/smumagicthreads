@@ -48,7 +48,7 @@ function setup() {
   document.body.style.zoom = (Math.min((innerHeight - 25) / cHeight, (innerWidth - 25) / cWidth)).toFixed(1);
   createCanvas(cWidth, cHeight);
 
-  help = QuickSettings.create(ui_offs - 10, 0, "Помощь (кликни дважды)")
+  help = QuickSettings.create(ui_offs - 10, 0, "Porcodio")
     .addHTML("Выбор изображения", '<div style="height:30px"></div>')
     .addHTML('Размер изображения', '<div style="height:20px"></div>')
     .addHTML('Яркость', '<div style="height:20px"></div>')
