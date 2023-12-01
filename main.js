@@ -71,7 +71,7 @@ function setup() {
     .setDraggable(false)
     .collapse()
 
-  ui = QuickSettings.create(0, 0, "GyverBraid v1.5")
+  ui = QuickSettings.create(0, 0, "MagicThreads")
     .addFileChooser("Pick Image", "", "", handleFile)
     .addRange('Size', cv_d - 300, cv_d + 500, cv_d, 1, update_h)
     .addRange('Brightness', -128, 128, 0, 1, update_h)
